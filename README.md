@@ -8,7 +8,7 @@ nuxtjs/dotenvを用いて環境変数を設定します
 githubでapiTokenを作成後に設定してください
 
 ``` bash
-# .env
+# ルート直下に .env ファイルを生成
 NUXT_GITHUB_TOKEN=xxxxxxxxxxxxxx
 ```
 

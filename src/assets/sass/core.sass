@@ -1,0 +1,34 @@
+@charset "utf-8"
+
+// ここには実体を持たないsassのみをimport
+// styleResourcesを利用して全てのvueから利用できるようにしておく
+
+$primary: #E26060
+$link: #3F9CCC
+$info: #4ac99e
+$success: #6CAE08
+
+$table-row-active-background-color: $link
+
+// config
+@import './config/breakpoints'
+@import './config/colors'
+@import './config/fonts'
+
+// mixins
+@import './mixins/_all'
+@import './mixins/a_icons'
+@import './mixins/animate'
+@import './mixins/clear'
+@import './mixins/ex-link'
+@import './mixins/font'
+@import './mixins/hover'
+@import './mixins/img'
+@import './mixins/input'
+@import './mixins/margin'
+@import './mixins/media-query'
+@import './mixins/position'
+@import './mixins/sizer'
+@import './mixins/tags'
+@import './mixins/tile'
+@import './mixins/transtion'
